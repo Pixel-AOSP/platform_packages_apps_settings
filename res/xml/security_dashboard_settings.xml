@@ -20,7 +20,7 @@
     xmlns:settings="http://schemas.android.com/apk/res-auto"
     android:key="security_dashboard_page"
     android:title="@string/security_settings_title"
-    settings:initialExpandedChildrenCount="9">
+    settings:initialExpandedChildrenCount="10">
 
     <!-- security_settings_status.xml -->
     <PreferenceCategory
@@ -160,5 +160,13 @@
         android:title="@string/screen_pinning_title"
         android:summary="@string/summary_placeholder"
         android:fragment="com.android.settings.security.ScreenPinningSettings" />
+
+    <SwitchPreference
+        android:order="90"
+        android:key="deny_new_usb"
+        android:title="@string/deny_new_usb"
+        android:summary="@string/deny_new_usb_summary"
+        settings:controller="com.android.settings.security.DenyNewUsbPreferenceController"/>
+
 
 </PreferenceScreen>
