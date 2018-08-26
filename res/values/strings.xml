@@ -4317,6 +4317,10 @@
     <string name="show_password">Show passwords</string>
     <!-- On Security & location settings screen. This is a short summary text describing what "Show passwords" setting does -->
     <string name="show_password_summary">Display characters briefly as you type</string>
+    <!-- On Security & location settings screen, setting check box name. Control support for USB peripherals such as input (mice, keyboards, joysticks) and storage devices.. -->
+    <string name="deny_new_usb">Disallow new USB peripherals</string>
+    <!-- On Security & location settings screen. This is a short summary text describing what "Disallow new USB peripherals" setting does -->
+    <string name="deny_new_usb_summary">Control support for USB peripherals such as input (mice, keyboards, joysticks) and storage devices.</string>
     <!-- Warning message about security implications of enabling a spell checker, displayed as a dialog
          message when the user selects to enable a spell checker. -->
     <string name="spellchecker_security_warning">This spell checker may be able to collect
