@@ -136,4 +136,19 @@
         android:summary="@string/summary_placeholder"
         settings:allowDividerAbove="true"/>
 
+    <!-- Verified boot status information -->
+    <Preference
+        android:key="verified_boot_status"
+        android:order="44"
+        android:title="@string/verified_boot_status"
+        android:summary="@string/summary_placeholder"
+        settings:allowDividerAbove="true"/>
+
+    <!-- Anti-theft protection status information -->
+    <Preference
+        android:key="anti_theft_protection_status"
+        android:order="45"
+        android:title="@string/anti_theft_protection_status"
+        android:summary="@string/summary_placeholder"/>
+
 </PreferenceScreen>
