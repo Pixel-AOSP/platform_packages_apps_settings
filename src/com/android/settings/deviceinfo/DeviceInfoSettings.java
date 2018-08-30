@@ -137,8 +137,9 @@ public class DeviceInfoSettings extends DashboardFragment implements Indexable {
         controllers.add(new ManualPreferenceController(context));
         controllers.add(new FeedbackPreferenceController(fragment, context));
         controllers.add(new FccEquipmentIdPreferenceController(context));
-        controllers.add(
-                new BuildNumberPreferenceController(context, activity, fragment, lifecycle));
+        controllers.add(new BuildNumberPreferenceController(context, activity, fragment, lifecycle));
+        controllers.add(new VerifiedBootStatusPreferenceController(context));
+        controllers.add(new AntiTheftProtectionStatusPreferenceController(context));
         return controllers;
     }
 
